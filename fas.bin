@@ -1185,7 +1185,7 @@ echo -e "             请选择FAS资源下载地址              "
 echo -e "************************************************"
 echo -e "请选择："
 echo
-echo -e "1、北京腾讯云下载源（适用于中国大陆服务器）"
+echo -e "1、github下载源（适用于中国大陆服务器）"
 echo
 echo -e "2、德国高防云下载源（适用于国外海外服务器）"
 echo
@@ -1193,8 +1193,8 @@ read -p " 请输入选项并回车: " a
 echo
 k=$a
 if [[ $k == 1 ]];then
-downloaddizhi="北京腾讯云下载源（适用于中国大陆服务器）";
-downloadhost="https://raw.githubusercontent.com/QHDS/xyr/master/FAS/";
+downloaddizhi="github下载源（适用于中国大陆服务器）";
+downloadhost="https://raw.githubusercontent.com/1309822767/vpn-server/master/FAS/";
 fi
 	
 if [[ $k == 2 ]];then
